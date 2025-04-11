@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const ContactUs = () => {
+function ContactUs() {
   return (
     <div className="min-h-screen bg-white py-16">
       <motion.h1
@@ -50,26 +50,26 @@ const ContactUs = () => {
             <input
               type="text"
               placeholder="Your Name"
-              className="p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
+              className="placeholder-gray-600 p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
+              className="placeholder-gray-600 p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
             />
             <input
               type="text"
               placeholder="Company"
-              className="p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
+              className="placeholder-gray-600 p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
             />
             <input
               type="tel"
               placeholder="Phone Number"
-              className="p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
+              className="placeholder-gray-600 p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
             />
             <textarea
               placeholder="Your Message"
-              className="p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
+              className="placeholder-gray-600 p-3 w-full rounded-md border border-[#2d466b] focus:ring-[#3b5787] focus:border-[#3b5787] transition"
             />
 
             <div className="flex items-center space-x-2">

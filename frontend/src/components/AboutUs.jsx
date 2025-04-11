@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const AboutUs = () => {
+function AboutUs() {
   return (
     <div className="text-white">
       <div className="bg-white py-16 px-8">
@@ -62,7 +62,7 @@ const AboutUs = () => {
               className="rounded-xl shadow-xl w-full"
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}
             />
-			      <p>Image by <a href="https://www.freepik.com/author/wirestock" target="_blank" rel="noopener noreferrer" className="underline">wirestock</a> on Freepik</p>
+			      <p>Image by <a href="https://www.freepik.com/author/wirestock" target="_blank" rel="noopener noreferrer" className="underline opacity-50">wirestock</a> on Freepik</p>
           </div>
         </div>
       </div>

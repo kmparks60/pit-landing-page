@@ -58,7 +58,7 @@ const tiers = [
   },
 ];
 
-const Services = () => {
+function Services() {
   return (
     <div className="min-h-screen bg-white py-20 px-6 text-[#3b5787]">
       <motion.div
